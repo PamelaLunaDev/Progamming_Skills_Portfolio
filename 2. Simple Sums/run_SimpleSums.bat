@@ -8,6 +8,6 @@ if %errorlevel% neq 0 (
 	pause
 	exit /b
 )
-echo Runing SimpleSums...
+echo Running SimpleSums...
 SimpleSums.exe
 pause

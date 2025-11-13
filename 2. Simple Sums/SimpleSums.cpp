@@ -3,19 +3,13 @@ using namespace std;
 
 int main(){
 
-    int number1;
-    int number2;
-    int sum;
+    int number1 = 8; // First integer variable, initialized with value 8.
+    int number2 = 10; // Second integer variable, initialized with value 10.
+   
+    int sum = number1 + number2; // Third integer variable, stores the sum.
 
-    cout << "Enter the first number: ";
-    cin >> number1;
+    cout << "The sum of the 8 and 10 is: " << sum << endl; // Print the result of the sum. 
 
-    cout << "Enter the second number: ";
-    cin >> number2;
-
-    sum = number1 + number2;
-    cout << "The sum of the two numbers is: " << sum << endl;
-
-    return 0;
+    return 0; // Program finished successfully
 
 }
