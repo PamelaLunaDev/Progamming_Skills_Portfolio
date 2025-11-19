@@ -29,8 +29,8 @@ g++ PrimitiveQuiz.cpp -o PrimitiveQuiz
 - How to print clear feedback messages and a final score to the terminal.
 
 ## Academic Integrity Note
-I use ChatGPT to study and understand the task requirements.  
-After learning the concepts, I adapted and wrote the **final version** of the code myself.
+I use ChatGPT as a study support tool, mainly to review content, clarify doubts, and correct typing errors.  
+After learning and understanding the concepts, **I independently** developed and wrote the **final version** of the code.
 
 
 ## Author
