@@ -1,6 +1,6 @@
 #include <iostream> // Include iostream library for printing text
 #include <string> // Allows working with string variables.
-using namespace std; // Allow use of cout without writing std::cout
+using namespace std; // Allows use of cout without writing std::cout
 
 int main() {
     string name;
@@ -9,17 +9,17 @@ int main() {
 
     // Ask the user for their full name.
     cout << "Enter your full name: ";
-    getline(cin, name); // Getline allows first and last name    
+    getline(cin, name); // Getline allows the user to enter a first and last name.    
    
-    // Ask the user for hometown.
+    // Ask the user for their hometown.
     cout << "Enter your hometown: ";
     getline(cin, hometown);
    
-   // Ask for age.
+   // Ask the user for their age.
     cout << "Enter your age: ";
     cin >> age;
 
-    // Validate if the age input is invalid (user typed text)
+    // Validate if the age input is invalid (user typed text).
     if (cin.fail()) {
         cin.clear(); // Clear the error state.
         cin.ignore(1000, '\n'); // Discard invalid input.
