@@ -1,32 +1,38 @@
-# Coding is Cool
+# Primitive Quiz
 
 ## Description
-This is the first exercise from my Programming Skills Portfolio (Code Lab 1).  
-The program prints the message **"Coding is cool"** to the terminal.   
-The goal is to display a simple message on the screen using `cout`.
+This program is a simple question and answer quiz about capital cities.  
+It asks the user two questions:  
+1- What is the capital of France?  
+2- What is the capital of Brazil?  
+For each question, the user types the answer as text.  
+The program converts the answer to lowercase to ignore capital letters, checks if it is correct, prints feedback and then displays the final score out of 2.
 
 ## How to run
 - 1 Open the terminal in VS Code.
 - 2 Compile the program:  
-g++ CodingIsCool.cpp -o CodingIsCool
+g++ PrimitiveQuiz.cpp -o PrimitiveQuiz
 
 - 3 Execute
 - On Windows:  
-.\ CodingIsCool.exe
+.\ PrimitiveQuiz.exe
 
 - On MacOS / Linux:  
-./CodingIsCool
+./PrimitiveQuiz
 
 ## What I learned
-- Use `#include <iostream>`.
-- Use `cout` to display text on the screen.
-- Understand basic structure of a C++ program.
+- How to use `std::string` to store text input from the user.
+- How to use getline `cin, answer` to read a full line of text.
+- How to normalise user input by converting characters to **lowercase** before comparison.
+- How to use `if` and `else` to check whether an answer is correct or incorrect.
+- How to keep track of a `score` using an `int` variable and update it for each correct answer.
+- How to print clear feedback messages and a final score to the terminal.
 
 ## Academic Integrity Note
-I use ChatGPT to study and understand the task requirements, especially the rule about using only one `cout`.  
+I use ChatGPT to study and understand the task requirements.  
 After learning the concepts, I adapted and wrote the **final version** of the code myself.
 
 
 ## Author
 **Pamela Luna**  
-Bath Spa University - Computing Class
+Bath Spa University - Computing Class.
