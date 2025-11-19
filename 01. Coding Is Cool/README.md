@@ -1,4 +1,4 @@
-# Coding is Cool
+# Coding Is Cool
 
 ## Description
 This is the first exercise from my Programming Skills Portfolio (Code Lab 1).  
@@ -23,8 +23,8 @@ g++ CodingIsCool.cpp -o CodingIsCool
 - Understand basic structure of a C++ program.
 
 ## Academic Integrity Note
-I use ChatGPT to study and understand the task requirements, especially the rule about using only one `cout`.  
-After learning the concepts, I adapted and wrote the **final version** of the code myself.
+I use ChatGPT as a study support tool, mainly to review content, clarify doubts, and correct typing errors.  
+After learning and understanding the concepts, **I independently** developed and wrote the **final version** of the code.
 
 
 ## Author
