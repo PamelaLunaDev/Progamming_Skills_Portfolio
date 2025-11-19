@@ -1,6 +1,6 @@
 #include <iostream> // Include iostream library for printing text
 #include <string> // Allows working with string variables.
-using namespace std; // Allows use of cout without writing std::cout
+using namespace std; // Allows the use of cout without writing std::cout
 
 int main() {
     string name;
@@ -32,5 +32,6 @@ int main() {
          << name << "\n"
          << hometown << "\n"
          << age << "\n";
-    return 0;
+
+    return 0; // Program ends successfully.
 }
