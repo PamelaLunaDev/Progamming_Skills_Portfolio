@@ -4,7 +4,7 @@ using namespace std;
     int main() {
         const int password = 12345; // Correct password stored as a constant.
         int attempt; // Variable to store the user's input.
-        bool access = false; //Track access status.
+        bool access = false; // Tracks access status.
         
         cout << "=== SECURITY SYSTEM ===" << endl;
         cout << "You have 5 attempts to enter the correct password." << endl;
@@ -12,9 +12,9 @@ using namespace std;
         
         // Using a WHILE loop.
         int tries = 0;
-        while (tries < 5 && !access) { // Loop run while attempts < 5 and access is false.
-            cout << "Enter yor password attempt " 
-            << (tries + 1) << " of 5: "; // Show attempts number.
+        while (tries < 5 && !access) { // Loop runs while attempts < 5 and access is false.
+            cout << "Enter your password attempt " 
+            << (tries + 1) << " of 5: "; // Shows attempt number.
             cin >> attempt; // Read user's password input.
             
             if (attempt == password) { // Check if input matches correct password.
@@ -26,7 +26,7 @@ using namespace std;
             tries++; // Increase the number of attempts.
         }     
 
-        // If user falls 5 times.
+        // If the user fails 5 times.
         if (!access) { // Run only if access is still false after the loop.
             cout << "Too many failed attempts. The authorities have been alerted!" << endl;
         }
