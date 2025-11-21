@@ -6,7 +6,9 @@ int main() {
     // Create a fixed array of names with 6 strings.
     string names[6] = {"Jake", "Zac", "Ian", "Ron", "Sam", "Dave"};
     
-    string searchName = "Sam";  // The target name we are searching for is "Sam".
+    string searchName;  // Will store the name typed by the user.
+        cout <<"Enter the name you want to search for:"; // Ask thr user which name they want to search for.
+        cin >> searchName; // Read the name from the user.
 
     // This variable will store the index where the name is found.
     // Start with -1 to show that nothing was found yet.
