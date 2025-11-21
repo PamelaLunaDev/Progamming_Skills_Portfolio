@@ -7,7 +7,7 @@ int main() {
     string names[6] = {"Jake", "Zac", "Ian", "Ron", "Sam", "Dave"};
     
     string searchName;  // Will store the name typed by the user.
-        cout <<"Enter the name you want to search for:"; // Ask thr user which name they want to search for.
+        cout << "Enter the name you want to search for:"; // Ask the user which name they want to search for.
         cin >> searchName; // Read the name from the user.
 
     // This variable will store the index where the name is found.
